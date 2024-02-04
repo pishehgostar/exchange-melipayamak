@@ -30,6 +30,7 @@ class MelipayamakChannel
         if ($message->toNotGiven()) {
             $to = $notifiable->routeNotificationFor('melipayamak', $notification)
                 ?? $notifiable->routeNotificationFor(self::class, $notification);
+
             if (! $to) {
                 return false;
             }
