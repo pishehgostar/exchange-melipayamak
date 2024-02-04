@@ -40,7 +40,7 @@ return [
 In every model you wish to be notifiable via Melipayamak, you must add a channel ID property to that model accessible through a routeNotificationForMelipayamak method:
 
 ````php
-class User extends Eloquent
+class YourModel extends Eloquent
 {
     use Notifiable;
 
