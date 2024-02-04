@@ -1,0 +1,24 @@
+{
+    "name": "pishehgostar/exchange-melipayamak",
+    "autoload": {
+        "psr-4": {
+            "Pishehgostar\\ExchangeMelipayamak\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pishehgostar\\ExchangeMelipayamak\\MainServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "hossein",
+            "email": "hosseinasadian442@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}
